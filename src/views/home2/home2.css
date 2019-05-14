@@ -1,0 +1,33 @@
+.logoBannerContainer {
+    /* margin-top: 20px; */
+}
+
+.logoBanner {
+    width: 100%;
+    height: 300px;
+}
+
+.homeTextContainer {
+    border-right: 3px solid #38C0E9;
+    /* border-bottom: 3px solid #38C0E9; */
+    margin-top: 20px;
+    -webkit-box-shadow: 19px 0px 11px -18px rgba(173,173,173,1);
+-moz-box-shadow: 19px 0px 11px -18px rgba(173,173,173,1);
+box-shadow: 19px 0px 11px -18px rgba(173,173,173,1);
+}
+
+@media screen and (max-width: 450px) {
+    img.logoBanner {
+        height: 150px;
+    }
+}
+
+.homeText {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.bottomLine {
+    background-color: #38C0E9;
+    height: 3px;
+}
