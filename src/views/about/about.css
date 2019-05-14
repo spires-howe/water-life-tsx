@@ -43,6 +43,36 @@
 
 .underline {
     width: 95%;
-    height: 4px;
+    height: 2px;
     background-color: black;
+}
+
+.aboutBannerContainer {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, 0.85)),
+    url('../../assets/images/space-banner-3.jpg');
+    background-size: cover;
+    min-height: 400px;
+}
+
+.aboutBannerContainerSecondary {
+    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.85)),
+    url('../../assets/images/forest-banner.jpg');
+    background-size: cover;
+    min-height: 350px;
+}
+
+.aboutBannerText {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.aboutBannerDescContainer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }

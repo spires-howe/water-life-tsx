@@ -10,7 +10,7 @@ export default class About extends React.Component {
             <div>
                 <Container fluid={true}>
                     <Row>
-                        <Col sm={{offset: 2, span: 2}} md={{offset: 2, span: 3}}>
+                        <Col sm={{offset: 2, span: 2}} md={{offset: 1, span: 4}}>
                             <div className="pageHeaderBorder"/>
                         </Col>
                         <Col sm={4} md={2}>
@@ -20,14 +20,14 @@ export default class About extends React.Component {
                                 </h1>
                             </div>
                         </Col>
-                        <Col sm={2} md={3}>
+                        <Col sm={2} md={4}>
                             <div className="pageHeaderBorder"/>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={{offset: 2, span: 8}}>
                             <div className="aboutDescContainer">
-                                <p style={{fontSize: 30}}>
+                                <p style={{fontSize: 25}}>
                                 Water Life Limited is a 100% registered and owned company head-quartered in Auckland, New Zealand. We provide the best, latest and most effective measuring, monitoring and analyzing equipment.
                                 </p>
                             </div>
@@ -50,7 +50,7 @@ export default class About extends React.Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg={{offset: 3, span: 6}}>
+                            <Col lg={{offset: 2, span: 8}}>
                                 <div style={{textAlign: 'center'}}>
                                     <p style={{fontSize: 22}}>
                                         Water Life Limited’s core business is the supply and maintenance of highly specialised manual, automated, remote-operated, real-time environmental and commercial monitoring equipment.
@@ -60,7 +60,7 @@ export default class About extends React.Component {
                         </Row>
                     </div>
                     <Row>
-                        <Col md={{offset: 1, span: 5}} lg={{offset: 2, span: 2}}>
+                        <Col md={{offset: 1, span: 5}} lg={{offset: 2, span: 4}}>
                             <div style={{textAlign: 'center', marginTop: 50}}>
                                 <img src={require('../../assets/images/glasses.png')}/>
                                 <p className="aboutAttributeText">
@@ -71,7 +71,7 @@ export default class About extends React.Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col md={5} lg={{offset: 1, span: 2}}>
+                        <Col md={5} lg={4}>
                             <div style={{textAlign: 'center', marginTop: 50}}>
                                 <img src={require('../../assets/images/mission.png')}/>
                                 <p className="aboutAttributeText">
@@ -82,7 +82,9 @@ export default class About extends React.Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={{offset: 1, span: 2}}>
+                    </Row>
+                    <Row>
+                        <Col lg={12}>
                             <div style={{textAlign: 'center', marginTop: 50}}>
                                 <img src={require('../../assets/images/deal.png')}/>
                                 <p className="aboutAttributeText">
@@ -94,30 +96,76 @@ export default class About extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    <div style={{marginTop: 100}}>
-                        <Row>    
-                            <Col lg={{offset: 2, span: 6}}>
-                                <div>
-                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Water Life</h2>
-                                    <div className="underline">
-                                    </div>
+                    <div style={{marginTop: 50}}>
+                        <Row className="aboutBannerContainer">
+                            <Col lg={{offset: 1, span: 10}}>
+                                <div style={{marginTop: 100}}>
                                     <div style={{marginTop: 10}}>
-                                        <p style={{fontSize: 20}}>
-                                            Through a written agreement, Water Life Limited has a presence in Botswana through a company known as Mason – M Advertising and Promotions (MAP), who act as its Country Agent. Water Life Limited is a distributer and supplier of various monitoring equipment ranging from light-weight hand-held portable equipment to heavy fixed stationery equipment. Water Life Limited also provides several consultancy services.
+                                        <p className="aboutBannerText">
+                                            Strategic Links  
                                         </p>
                                     </div>
-                                    
-                                </div>
-                            </Col>
-                            <Col lg={2}>
-                                <div>
-                                    <img src={require('../../assets/images/gas-monitor.png')} height='200px'/>
+                                    <hr style={{backgroundColor: 'white'}}/>
+                                    <div className="aboutBannerDescContainer">
+                                        <p style={{marginBottom: 0}}>
+                                        Water Life Limited has access to global international markets such as Australia, Germany, Italy, Ireland, <br/>Switzerland, the United Kingdom and the United States of America where all types of equipment <br/>are sourced directly from reputable manufacturers hence obtaining competitive <br/>prices and delivering products using the quickest means possible.
+                                        </p>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
                     </div>
-                    
-                    
+                    <div style={{marginTop: 150}}>
+                        <Row className="aboutBannerContainerSecondary">
+                            <Col lg={{offset: 2, span: 8}}>
+                                <div style={{marginTop: 100}}>
+                                    <div style={{marginTop: 10}}>
+                                        <p className="aboutBannerText">
+                                        Corporate Social Investment (CSl)  
+                                        </p>
+                                    </div>
+                                    <hr style={{backgroundColor: 'white'}}/>
+                                    <div className="aboutBannerDescContainer">
+                                        <p style={{marginBottom: 0}}>
+                                        In recognising the need to promote environmental protection, Water Life
+                                        Limited, materially supports community-initiated and community-driven <br/>
+                                        sustainable environmentally green projects that provide the <br/>beneficiary
+                                        community with long-term benefits.
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div style={{marginTop: 50}}>
+                        <Row>    
+                            <Col lg={{offset: 2, span: 6}}>
+                                <div>
+                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Management Team</h2>
+                                    <div className="underline">
+                                    </div>
+                                    <div style={{marginTop: 10}}>
+                                        <p style={{fontSize: 20}}>
+                                            <ul>
+                                                <li>
+                                                    Chief Executive
+                                                </li>
+                                                <li>
+                                                    Operations Manager
+                                                </li>
+                                                <li>
+                                                    Technical Manager
+                                                </li>
+                                                <li>
+                                                    Accounts Manager
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
             </div>
         )
