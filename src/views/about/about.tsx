@@ -36,7 +36,7 @@ export default class About extends React.Component {
                     <Row>
                         <Col lg={{offset: 5 , span: 2}}>
                             <div style={{textAlign: 'center'}}>
-                                <img src={require('../../assets/icons/logo.png')} height="200px"/>
+                                <img src={require('../../assets/icons/logo.png')} height="100px"/>
                             </div>
                         </Col>
                     </Row>
