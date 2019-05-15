@@ -6,6 +6,7 @@ import './about.css';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import { FooterComponent } from '../../components/footer/footer';
 
 export default class About extends React.Component {
     render() {
@@ -35,8 +36,8 @@ export default class About extends React.Component {
                                 </p>
                                 <div className="buttonContainer">
                                     <ButtonToolbar>
-                                        <NavLink to="/pricing"> 
-                                            <Button variant="outline-dark" style={{fontSize: 17}}>Enquire ➥</Button>
+                                        <NavLink to="/contact"> 
+                                            <Button variant="outline-dark" style={{fontSize: 17}} className="buttonShadow">Enquire ➥</Button>
                                         </NavLink>
                                     </ButtonToolbar>
                                 </div>
@@ -337,6 +338,7 @@ export default class About extends React.Component {
                         </Row>
                     </div>
                 </Container>
+                <FooterComponent />
             </div>
         )
     }
