@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 import { NavRouting } from './components/nav-routing/nav-routing';
-import ScrollToTop from 'react-router-scroll-top'
+import ScrollToTop from 'react-router-scroll-top';
 import Home from './views/home/home';
 import Home2 from './views/home2/home2';
 import About from './views/about/about';
