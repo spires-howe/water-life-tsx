@@ -31,12 +31,12 @@ export default class About extends React.Component {
                         <Col md={{offset: 2, span: 8}}>
                             <div className="aboutDescContainer">
                                 <p style={{fontSize: 25}}>
-                                Water Life Limited is a 100% registered and owned company head-quartered in Auckland, New Zealand. We provide the best, latest and most effective measuring, monitoring and analyzing equipment.
+                                Water Life Limited is a 100% registered and owned company head-quartered in Auckland, New Zealand. We provide the <span style={{color: '#38C0E9'}}>best</span>, <span style={{color: '#38C0E9'}}>latest</span> and most <span style={{color: '#38C0E9'}}>effective</span> measuring, monitoring and analyzing equipment.
                                 </p>
                                 <div className="buttonContainer">
                                     <ButtonToolbar>
                                         <NavLink to="/pricing"> 
-                                            <Button variant="outline-dark" style={{fontSize: 20}}>Enquire ➥</Button>
+                                            <Button variant="outline-dark" style={{fontSize: 17}}>Enquire ➥</Button>
                                         </NavLink>
                                     </ButtonToolbar>
                                 </div>
@@ -91,7 +91,8 @@ export default class About extends React.Component {
                         <Row>
                             <Col lg={{offset: 2, span: 8}}>
                                 <div style={{marginTop: 50}}>
-                                    <h2 className="subHeaderText">Equipment & Services</h2>
+                                    <h2 className="subHeaderText">Equipment & Services
+                                    </h2>
                                     <hr />
                                 </div>
                             </Col>

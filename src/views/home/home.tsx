@@ -21,13 +21,10 @@ render() {
             </Row>
             <Row>
                 <Col lg={true}>
-                    <div className=""> 
-                        {/* <h1 className="homeHeaderText"> */}
-                        {/* <img src={require('../../assets/icons/logo.png')} className="pageLogo"/>Water Life</h1> */}
-                        
-                        <hr className="headerHR"/>
+                    <div> 
                         <div className="homeHeaderDescContainer">
                         <p className="homeHeaderDescContainerText">To provide the <span style={{color: '#38C0E9'}}>best</span>, <span style={{color: '#38C0E9'}}>latest</span> and most <span style={{color: '#38C0E9'}}>effective</span> measuring,  <br></br>monitoring and analyzing equipment. </p>
+                        <hr className="headerHR"/>
                         <div className="buttonContainer">
                         <ButtonToolbar style={{marginBottom: 20}}>
                             <NavLink to="/contact"> 

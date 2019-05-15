@@ -64,6 +64,9 @@ li::before {
     url('../../assets/images/space-banner-3.jpg');
     background-size: cover;
     min-height: 350px;
+    -webkit-box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
+    -moz-box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
+    box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
 }
 
 .aboutBannerContainerSecondary {
@@ -71,6 +74,9 @@ li::before {
     url('../../assets/images/forest-banner.jpg');
     background-size: cover;
     min-height: 350px;
+    -webkit-box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
+    -moz-box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
+    box-shadow: 0px 12px 10px -5px rgba(117,117,117,1);
 }
 
 .aboutBannerText {
@@ -129,4 +135,5 @@ li::before {
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
+    font-weight: 400;
 }
