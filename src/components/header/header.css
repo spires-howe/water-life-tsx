@@ -1,0 +1,15 @@
+.pageHeaderText {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pageHeaderBorder {
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 4px solid black;
+    height: 20px;
+    margin-top: 50px;
+}

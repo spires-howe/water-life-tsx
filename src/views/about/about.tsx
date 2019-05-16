@@ -7,27 +7,14 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import { FooterComponent } from '../../components/footer/footer';
+import HeaderComponent from '../../components/header/header';
 
 export default class About extends React.Component {
     render() {
         return (
             <div>
                 <Container fluid={true}>
-                    <Row>
-                        <Col sm={{offset: 2, span: 2}} md={{offset: 1, span: 4}}>
-                            <div className="pageHeaderBorder"/>
-                        </Col>
-                        <Col sm={4} md={2}>
-                            <div>
-                                <h1 className="pageHeaderText">
-                                    About Us
-                                </h1>
-                            </div>
-                        </Col>
-                        <Col sm={2} md={4}>
-                            <div className="pageHeaderBorder"/>
-                        </Col>
-                    </Row>
+                    <HeaderComponent title="About Us"/>
                     <Row>
                         <Col md={{offset: 2, span: 8}}>
                             <div className="aboutDescContainer">
@@ -45,8 +32,8 @@ export default class About extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={{offset: 1, span: 5}} lg={{offset: 2, span: 4}}>
-                            <div style={{textAlign: 'center', marginTop: 25}}>
+                        <Col md={{offset: 1, span: 5}} lg={{offset: 2, span: 2}}>
+                            <div style={{textAlign: 'center', marginTop: 60}}>
                                 <img src={require('../../assets/images/glasses.png')}/>
                                 <p className="aboutAttributeText">
                                     Vision
@@ -56,8 +43,8 @@ export default class About extends React.Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col md={5} lg={4}>
-                            <div style={{textAlign: 'center', marginTop: 25}}>
+                        <Col md={5} lg={{offset: 1, span: 2}}>
+                            <div style={{textAlign: 'center', marginTop: 60}}>
                                 <img src={require('../../assets/images/mission.png')}/>
                                 <p className="aboutAttributeText">
                                     Mission
@@ -67,10 +54,8 @@ export default class About extends React.Component {
                                 </p>
                             </div>
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={12}>
-                            <div style={{textAlign: 'center', marginTop: 10}}>
+                        <Col lg={{offset: 1, span: 2}}>
+                            <div style={{textAlign: 'center', marginTop: 60}}>
                                 <img src={require('../../assets/images/deal.png')}/>
                                 <p className="aboutAttributeText">
                                     Values
@@ -81,18 +66,12 @@ export default class About extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    {/* <Row>
-                        <Col lg={{offset: 5 , span: 2}}>
-                            <div style={{textAlign: 'center'}}>
-                                <img src={require('../../assets/icons/logo.png')} height="100px"/>
-                            </div>
-                        </Col>
-                    </Row> */}
                     <div className="businessContainer">
                         <Row>
                             <Col lg={{offset: 2, span: 8}}>
-                                <div style={{marginTop: 50}}>
+                                <div style={{marginTop: 70}}>
                                     <h2 className="subHeaderText">Equipment & Services
+                                    <img src={require('../../assets/icons/repair.png')} alt="equipment" style={{marginLeft: 10}}/>
                                     </h2>
                                     <hr />
                                 </div>
@@ -218,7 +197,8 @@ export default class About extends React.Component {
                                 <div style={{marginTop: 75}}>
                                     <div style={{marginTop: 10}}>
                                         <p className="aboutBannerText">
-                                            Strategic Links  
+                                            Strategic Links
+                                            <img src={require('../../assets/icons/air-freight.png')} alt="airplane" style={{marginLeft: 10}}/>
                                         </p>
                                     </div>
                                     <hr style={{backgroundColor: 'white'}}/>
@@ -235,7 +215,9 @@ export default class About extends React.Component {
                         <Row>
                             <Col lg={{offset: 2, span: 8}}>
                                 <div style={{marginTop: 30}}>
-                                    <h2 className="subHeaderText">Current Clients</h2>
+                                    <h2 className="subHeaderText">Current Clients
+                                    <img src={require('../../assets/icons/target.png')} alt="clients" style={{marginLeft: 10}}/>
+                                    </h2>
                                     <hr />
                                 </div>
                             </Col>
@@ -294,6 +276,7 @@ export default class About extends React.Component {
                                     <div style={{marginTop: 10}}>
                                         <p className="aboutBannerText">
                                         Corporate Social Investment (CSl)  
+                                        <img src={require('../../assets/icons/growth.png')} alt="growth" style={{marginLeft: 10}}/>
                                         </p>
                                     </div>
                                     <hr style={{backgroundColor: 'white'}}/>
@@ -313,7 +296,9 @@ export default class About extends React.Component {
                         <Row>    
                             <Col lg={{offset: 2, span: 6}}>
                                 <div>
-                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Management Team</h2>
+                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Management Team
+                                    <img src={require('../../assets/icons/workers.png')} alt="team" style={{marginLeft: 10, marginBottom: 10}}/>
+                                    </h2>
                                     <hr />
                                     <div style={{marginTop: 10}}>
                                         <p style={{fontSize: 20}}>

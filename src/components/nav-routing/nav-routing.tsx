@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ export class NavRouting extends React.Component<Props> {
             <Nav>
                 <Nav.Link>
                     {
-                        this.props.routePath == '/'
+                        this.props.routePath === '/'
                             &&
                             <NavLink 
                                 to={this.props.routePath}

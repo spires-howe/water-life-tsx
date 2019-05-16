@@ -28,7 +28,7 @@ export class FooterComponent extends React.Component {
                             </NavLink> 
                         </Col>
                         <Col lg={3} sm={6}> 
-                            <NavLink to="/pricing">
+                            <NavLink to="/products">
                                 <div>
                                     <p style={{color: 'white'}}>Products</p>
                                 </div>
