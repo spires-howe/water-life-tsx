@@ -88,7 +88,9 @@ export default class Products extends React.Component {
                     <Row>
                         <Col lg={{offset: 1, span : 4}}>
                             <div style={{marginTop: 50}}>
-                                <h2 className="subHeaderText">Committment To Clients</h2>
+                                <h2 className="subHeaderText">Committment To Clients 
+                                <img src={require('../../assets/icons/workers.png')} alt="team" style={{marginLeft: 10, marginBottom: 10}}/>
+                                </h2>
                                 <hr />
                                 <div style={{fontSize: 20}}>
                                     <p>Water Life Limited’s direct access to manufacturers of the best, latest and
@@ -105,7 +107,9 @@ export default class Products extends React.Component {
                         </Col>
                         <Col lg={{offset: 1, span: 4}}> 
                             <div style={{marginTop: 50}}>
-                                <h2 className="subHeaderText">Product Warranty</h2>
+                                <h2 className="subHeaderText">Product Warranty
+                                <img src={require('../../assets/icons/guarantee.png')} alt="team" style={{marginLeft: 10}}/>
+                                </h2>
                                 <hr />
                                 <div style={{fontSize: 20}}>
                                     <p>
@@ -123,6 +127,7 @@ export default class Products extends React.Component {
                             </div>
                         </Col>
                     </Row>
+                    
                 </Container>
                 <FooterComponent />
             

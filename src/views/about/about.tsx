@@ -29,11 +29,12 @@ export default class About extends React.Component {
                                     </ButtonToolbar>
                                 </div>
                             </div>
+                            <hr style={{width: '30%', backgroundColor: 'black', marginTop: 40, height: 1}}/>
                         </Col>
                     </Row>
                     <Row>
                         <Col md={{offset: 1, span: 5}} lg={{offset: 2, span: 2}}>
-                            <div style={{textAlign: 'center', marginTop: 60}}>
+                            <div style={{textAlign: 'center', marginTop: 20}}>
                                 <img src={require('../../assets/images/glasses.png')}/>
                                 <p className="aboutAttributeText">
                                     Vision
@@ -44,7 +45,7 @@ export default class About extends React.Component {
                             </div>
                         </Col>
                         <Col md={5} lg={{offset: 1, span: 2}}>
-                            <div style={{textAlign: 'center', marginTop: 60}}>
+                            <div style={{textAlign: 'center', marginTop: 20}}>
                                 <img src={require('../../assets/images/mission.png')}/>
                                 <p className="aboutAttributeText">
                                     Mission
@@ -55,7 +56,7 @@ export default class About extends React.Component {
                             </div>
                         </Col>
                         <Col lg={{offset: 1, span: 2}}>
-                            <div style={{textAlign: 'center', marginTop: 60}}>
+                            <div style={{textAlign: 'center', marginTop: 20}}>
                                 <img src={require('../../assets/images/deal.png')}/>
                                 <p className="aboutAttributeText">
                                     Values
@@ -318,6 +319,21 @@ export default class About extends React.Component {
                                             </ul>
                                         </p>
                                     </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div style={{marginTop: 50}}>
+                        <Row>    
+                            <Col lg={{offset: 2, span: 6}}>
+                                <div>
+                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Botswana
+                                    <img src={require('../../assets/icons/workers.png')} alt="team" style={{marginLeft: 10, marginBottom: 10}}/>
+                                    </h2>
+                                    <hr />
+                                    <p style={{fontSize: 20}}>
+                                        Through a written agreement, Water Life Limited has a presence in Botswana through a company known as Mason – M Advertising and Promotions (MAP), who act as its Country Agent. Water Life Limited is a distributer and supplier of various monitoring equipment ranging from light-weight hand-held portable equipment to heavy fixed stationery equipment. Water Life Limited also provides several consultancy services.
+                                    </p>
                                 </div>
                             </Col>
                         </Row>
