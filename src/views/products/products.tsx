@@ -55,7 +55,7 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
-                                <ProductCardComponent title="Protection & Monitoring" description="Environmental Protection Shielding and Monitoring Equipment."/>
+                                <ProductCardComponent title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment."/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
                                 <ProductCardComponent title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment."/>
