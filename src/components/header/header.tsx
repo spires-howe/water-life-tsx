@@ -11,17 +11,17 @@ export default class HeaderComponent extends React.Component<Props> {
     render() {
         return (
             <Row>
-                <Col sm={{offset: 2, span: 2}} md={{offset: 1, span: 4}}>
+                <Col sm={{offset: 2, span: 2}} lg={{offset: 1, span: 4}}>
                     <div className="pageHeaderBorder"/>
                 </Col>
-                <Col sm={4} md={2}>
+                <Col sm={4} lg={2}>
                     <div>
                         <h1 className="pageHeaderText">
                             {this.props.title}
                         </h1>
                     </div>
                 </Col>
-                <Col sm={2} md={4}>
+                <Col sm={2} lg={4}>
                     <div className="pageHeaderBorder"/>
                 </Col>
             </Row>
