@@ -22,58 +22,58 @@ export default class Products extends React.Component {
                     <HeaderComponent title="Products"/>
                     <div>
                         <Row>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                     <ProductCardComponent title="Water Equipment" description="Water Quality Monitoring and Testing Equipment."/>
                                 </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Monitoring Equipment" description="Specialised Real-Time Environmental and Water Quality Monitoring Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                         <ProductCardComponent title="Water Treatment" description="Commercial and Domestic Water Treatment Chemicals/Reagents/Consumables."/>
                                     </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Bulk Water Meters" description="Pre-paid Domestic and Industrial Bulk Water Meters."/>
                             </Col>
                         </Row>
                     </div>
                     <div>
                         <Row>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                     <ProductCardComponent title="Air Quality" description="Air Quality Particulate Monitoring and Measurement Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Radiation Health" description="Radiation Health Detection and Protection Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Laboratory" description="Scientific and Industrial Laboratory Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Processing" description="Industrial Manufacturing and Processing Equipment."/>
                             </Col>
                         </Row>
                     </div>
                     <div>
                         <Row>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Food Safety" description="Food Safety Detection and Control Monitoring Equipment."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Civil Engineering" description="Building/Civil Engineering/Survey Equipment."/>
                             </Col>
                         </Row>
                     </div>
                     <div>
                         <Row>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Body Armour" description="Non-Penetrative Piercing Protective Body Armour."/>
                             </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30}}>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
                                 <ProductCardComponent title="Industrial Chemicals" description="Industrial Chemicals."/>
                             </Col>
                         </Row>
@@ -127,12 +127,9 @@ export default class Products extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    
                 </Container>
                 <FooterComponent />
-            
             </div>
-            
         )
     }
 }

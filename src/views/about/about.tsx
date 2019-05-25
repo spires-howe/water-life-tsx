@@ -40,7 +40,7 @@ export default class About extends React.Component {
                                     Vision
                                 </p>
                                 <p className="aboutAttributeDescriptionText">
-                                    Mitigating environmental risks by supplying the correct equipment.
+                                    Mitigating environmental risks by supplying the appropriate equipment.
                                 </p>
                             </div>
                         </Col>
@@ -62,7 +62,7 @@ export default class About extends React.Component {
                                     Values
                                 </p>
                                 <p className="aboutAttributeDescriptionText">
-                                    Integrity, cerdibility and commitment to service.
+                                    Integrity, credibility and commitment to service.
                                 </p>
                             </div>
                         </Col>
@@ -119,7 +119,7 @@ export default class About extends React.Component {
                                     </div>
                                     <div className="bundleFeatureContainer">
                                         <p className="bundleFeatureText">
-                                            - Scientific and Industrial Equipment
+                                            - Eenvironmental Consultancies
                                         </p>
                                     </div>
                                     <div className="bundleFeatureContainer">
@@ -323,21 +323,7 @@ export default class About extends React.Component {
                             </Col>
                         </Row>
                     </div>
-                    <div style={{marginTop: 50}}>
-                        <Row>    
-                            <Col lg={{offset: 2, span: 6}}>
-                                <div>
-                                    <h2 className="subHeaderText" style={{marginBottom: 0}}>Botswana
-                                    <img src={require('../../assets/icons/workers.png')} alt="team" style={{marginLeft: 10, marginBottom: 10}}/>
-                                    </h2>
-                                    <hr />
-                                    <p style={{fontSize: 20}}>
-                                        Through a written agreement, Water Life Limited has a presence in Botswana through a company known as Mason – M Advertising and Promotions (MAP), who act as its Country Agent. Water Life Limited is a distributer and supplier of various monitoring equipment ranging from light-weight hand-held portable equipment to heavy fixed stationery equipment. Water Life Limited also provides several consultancy services.
-                                    </p>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
+                   
                 </Container>
                 <FooterComponent />
             </div>
