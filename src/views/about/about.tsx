@@ -119,7 +119,7 @@ export default class About extends React.Component {
                                     </div>
                                     <div className="bundleFeatureContainer">
                                         <p className="bundleFeatureText">
-                                            - Eenvironmental Consultancies
+                                            - Scientific and Industrial Equipment
                                         </p>
                                     </div>
                                     <div className="bundleFeatureContainer">
@@ -170,7 +170,7 @@ export default class About extends React.Component {
                                     </div>
                                     <div className="bundleFeatureContainer">
                                         <p className="bundleFeatureText">
-                                            - Scientific and Industrial Equipment
+                                            - Environmental Consultancies
                                         </p>
                                     </div>
                                     <div className="bundleFeatureContainer">
