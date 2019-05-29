@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.waterLifeText {
+    height: 40px;
+}
+
 .buttonShadow {
     -webkit-box-shadow: 8px 4px 15px -8px rgba(117,117,117,1);
     -moz-box-shadow: 8px 4px 15px -8px rgba(117,117,117,1);

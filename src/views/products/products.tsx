@@ -93,7 +93,8 @@ export default class Products extends React.Component {
                                 </h2>
                                 <hr />
                                 <div style={{fontSize: 20}}>
-                                    <p>Water Life Limited’s direct access to manufacturers of the best, latest and
+                                    <p>
+                                    <img src={require('../../assets/images/water-life-text.png')} height="35px"/> Limited’s direct access to manufacturers of the best, latest and
                                         most technologically-advanced products that they deal iis translated to clients
                                         getting the most competitive prices. 
                                     </p>
@@ -113,12 +114,14 @@ export default class Products extends React.Component {
                                 <hr />
                                 <div style={{fontSize: 20}}>
                                     <p>
-                                    All Water Life Limited products carry a minimum 12 months written
+                                    <img src={require('../../assets/images/water-life-text.png')} height="35px"/>
+                                     Limited products carry a minimum 12 months written
                                     Manufacturer’s Warranty. Some products carry a longer warranty of up to ten
                                     years. 
                                     </p>
                                     <p>
-                                    Water Life will endeavour to provide a back-up service on the products
+                                    <img src={require('../../assets/images/water-life-text.png')} height="35px"/>
+                                     will endeavour to provide a back-up service on the products
                                     it supplies and in all reasonableness without additional cost to the client.
                                     Where a cost is likely to be incurred, the matter will be discussed with the
                                     client prior to any service being provided.

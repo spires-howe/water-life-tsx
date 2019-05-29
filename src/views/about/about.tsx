@@ -19,7 +19,8 @@ export default class About extends React.Component {
                         <Col md={{offset: 2, span: 8}}>
                             <div className="aboutDescContainer">
                                 <p style={{fontSize: 25}}>
-                                Water Life Limited is a 100% registered and owned company head-quartered in Auckland, New Zealand. We provide the <span style={{color: '#38C0E9'}}>best</span>, <span style={{color: '#38C0E9'}}>latest</span> and most <span style={{color: '#38C0E9'}}>effective</span> measuring, monitoring and analyzing equipment.
+                                <img src={require('../../assets/images/water-life-text.png')} className="waterLifeText"/>
+                                 Limited is a 100% registered and owned company head-quartered in Auckland, New Zealand. We provide the <span style={{color: '#38C0E9'}}>best</span>, <span style={{color: '#38C0E9'}}>latest</span> and most <span style={{color: '#38C0E9'}}>effective</span> measuring, monitoring and analyzing equipment.
                                 </p>
                                 <div className="buttonContainer">
                                     <ButtonToolbar>
@@ -82,7 +83,8 @@ export default class About extends React.Component {
                             <Col lg={{offset: 2, span: 8}}>
                                 <div>
                                     <p style={{fontSize: 22}}>
-                                        Water Life Limited’s core business is the supply and maintenance of highly specialised manual, automated, remote-operated, real-time environmental and commercial monitoring equipment.
+                                        <img src={require('../../assets/images/water-life-text.png')} className="waterLifeText"/>
+                                        Limited’s core business is the supply and maintenance of highly specialised manual, automated, remote-operated, real-time environmental and commercial monitoring equipment.
                                     </p>
                                 </div>
                                 <ButtonToolbar style={{marginBottom: 20}}>
@@ -205,7 +207,8 @@ export default class About extends React.Component {
                                     <hr style={{backgroundColor: 'white'}}/>
                                     <div className="aboutBannerDescContainer">
                                         <p style={{marginBottom: 0}}>
-                                        Water Life Limited has access to global international markets such as Australia, Germany, Italy, Ireland, <br/>Switzerland, the United Kingdom and the United States of America where all types of equipment <br/>are sourced directly from reputable manufacturers hence obtaining competitive <br/>prices and delivering products using the quickest means possible.
+                                        <img src={require('../../assets/images/water-life-text.png')} className="waterLifeText"/>
+                                        Limited has access to global international markets such as Australia, Germany, Italy, Ireland, <br/>Switzerland, the United Kingdom and the United States of America where all types of equipment <br/>are sourced directly from reputable manufacturers hence obtaining competitive <br/>prices and delivering products using the quickest means possible.
                                         </p>
                                     </div>
                                 </div>
@@ -283,7 +286,8 @@ export default class About extends React.Component {
                                     <hr style={{backgroundColor: 'white'}}/>
                                     <div className="aboutBannerDescContainer">
                                         <p style={{marginBottom: 0}}>
-                                        In recognising the need to promote environmental protection, Water Life
+                                        In recognising the need to promote environmental protection, 
+                                        <img src={require('../../assets/images/water-life-text.png')} className="waterLifeText"/>
                                         Limited, materially supports community-initiated and community-driven <br/>
                                         sustainable environmentally green projects that provide the <br/>beneficiary
                                         community with long-term benefits.

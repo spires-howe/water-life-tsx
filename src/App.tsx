@@ -22,8 +22,7 @@ class App extends React.Component {
               <Navbar bg="light" expand="lg" sticky='top' >
               <Nav>
                   <Link to="/" style={{fontSize: '2em', fontWeight: 400, textAlign: 'left'}}>
-                  <img src={require('./assets/icons/logo.png')} height='60px;'/>
-                  Water Life
+                  <img src={require('./assets/images/header-trans.png')} className="brand"/>
                   </Link>
               </Nav>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>

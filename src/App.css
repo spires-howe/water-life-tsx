@@ -4,6 +4,22 @@ body {
   /* background-color: #e8fbff94; */
 }
 
+.brand {
+  height:60px; 
+}
+
+@media screen and (max-width: 400px) {
+  img.brand {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  img.brand {
+    height: 35px;
+  }
+}
+
 a:hover {
   text-decoration: none;
   color: #38C0E9;
