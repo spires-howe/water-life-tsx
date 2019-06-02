@@ -57,13 +57,13 @@ export default class Contact extends React.Component {
                     <Row>
                         <Col md={6} lg={{offset: 2, span: 3}}>
                             <div style={{marginTop: 50}}>
-                                <h2 className="subHeaderText">General Manager</h2>
+                                <h2 className="subHeaderText">Chief Executive</h2>
                                 <hr />
                             </div>
                             <div>
                                 <p style={{fontSize: 30, textDecoration: 'underline', marginBottom: 0}}>Jackie Phiri</p>
-                                <p style={{fontSize: 10, marginLeft: 5}}>MBA, MPH, MInstD, DpEvHlth</p>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
+                                <p style={{fontSize: 10, marginLeft: 5}}>MBA, MPH, DEH</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 214 3657</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 210 277 8580</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p>
                             </div>
