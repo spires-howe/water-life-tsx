@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
                         </Col>
                         <Col lg={{offset: 1, span: 3}}>
                             <div>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 214 3657</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 214 3657</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 21 235 3483</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> accounts@waterlife.co.nz</p>
                                 <p className="contactText"><img src={require('../../assets/icons/mailbox.png')} style={{marginBottom: 5}}/> P.O. Box 230165</p>
@@ -63,7 +63,7 @@ export default class Contact extends React.Component {
                             <div>
                                 <p style={{fontSize: 30, textDecoration: 'underline', marginBottom: 0}}>Jackie Phiri</p>
                                 <p style={{fontSize: 10, marginLeft: 5}}>MBA, MPH, DEH</p>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 214 3657</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 210 277 8580</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p>
                             </div>
