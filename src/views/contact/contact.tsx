@@ -68,6 +68,22 @@ export default class Contact extends React.Component {
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p>
                             </div>
                         </Col>
+
+                        <Col md={6} lg={{offset: 1, span: 3}}>
+                            <div style={{marginTop: 50}}>
+                                <h2 className="subHeaderText">Botswana Office</h2>
+                                <hr />
+                            </div>
+                            <div>
+                                <p style={{fontSize: 30, textDecoration: 'underline', marginBottom: 0}}>Country Manager: Moagisi Kingsley Ramadi</p>
+                                <p style={{fontSize: 10, marginLeft: 5}}>BBA</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
+                                <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> kingsleyramadi@gmail.com</p>
+                                <p className="contactText"><img src={require('../../assets/icons/mailbox.png')} style={{marginBottom: 5}}/> P.O. Box 4552</p>
+                                <p className="contactText"><img src={require('../../assets/icons/planet-earth.png')} style={{marginBottom: 5}}/> Gaborone, Botswana</p>
+                            </div>
+                        
+                        </Col>
                     </Row>
                     <Row>
                         <Col sm={12} lg={{offset: 1, span: 10}}>
