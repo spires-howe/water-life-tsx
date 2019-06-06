@@ -5,3 +5,22 @@
 .media {
     height: 140px;
 }
+
+.MuiDialog-paperWidthSm-76 {
+    max-width: 1000px !important;
+}
+
+.MuiDialog-paperWidthSm-111 {
+    max-width: 1000px !important;
+}
+
+.MuiDialog {
+    max-width: 1000px !important;
+}
+
+.productContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+

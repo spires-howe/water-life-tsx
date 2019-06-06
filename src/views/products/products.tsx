@@ -23,58 +23,58 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                    <ProductCardComponent title="Water Equipment" description="Water Quality Monitoring and Testing Equipment."/>
+                                    <ProductCardComponent title="Water Equipment" description="Water Quality Monitoring and Testing Equipment." productImages={['wq-3', 'wq-2', 'wq-5', 'wq-7', 'wq-4', 'wq-6', 'wq-1',]}/>
                                 </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Monitoring Equipment" description="Specialised Real-Time Environmental and Water Quality Monitoring Equipment."/>
+                                <ProductCardComponent title="Monitoring Equipment" description="Specialised Real-Time Environmental and Water Quality Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                        <ProductCardComponent title="Water Treatment" description="Commercial and Domestic Water Treatment Chemicals/Reagents/Consumables."/>
+                                        <ProductCardComponent title="Water Treatment" description="Commercial and Domestic Water Treatment Chemicals/Reagents/Consumables." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                                     </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Bulk Water Meters" description="Pre-paid Domestic and Industrial Bulk Water Meters."/>
+                                <ProductCardComponent title="Bulk Water Meters" description="Pre-paid Domestic and Industrial Bulk Water Meters." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                         </Row>
                     </div>
                     <div>
                         <Row>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                    <ProductCardComponent title="Air Quality" description="Air Quality Particulate Monitoring and Measurement Equipment."/>
+                                    <ProductCardComponent title="Air Quality" description="Air Quality Particulate Monitoring and Measurement Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Radiation Health" description="Radiation Health Detection and Protection Equipment."/>
+                                <ProductCardComponent title="Radiation Health" description="Radiation Health Detection and Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Laboratory" description="Scientific and Industrial Laboratory Equipment."/>
+                                <ProductCardComponent title="Laboratory" description="Scientific and Industrial Laboratory Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Processing" description="Industrial Manufacturing and Processing Equipment."/>
-                            </Col>
-                        </Row>
-                    </div>
-                    <div>
-                        <Row>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment."/>
-                            </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment."/>
-                            </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Food Safety" description="Food Safety Detection and Control Monitoring Equipment."/>
-                            </Col>
-                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Civil Engineering" description="Building/Civil Engineering/Survey Equipment."/>
+                                <ProductCardComponent title="Processing" description="Industrial Manufacturing and Processing Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                         </Row>
                     </div>
                     <div>
                         <Row>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Body Armour" description="Non-Penetrative Piercing Protective Body Armour."/>
+                                <ProductCardComponent title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Industrial Chemicals" description="Industrial Chemicals."/>
+                                <ProductCardComponent title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                            </Col>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
+                                <ProductCardComponent title="Food Safety" description="Food Safety Detection and Control Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                            </Col>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
+                                <ProductCardComponent title="Civil Engineering" description="Building/Civil Engineering/Survey Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                            </Col>
+                        </Row>
+                    </div>
+                    <div>
+                        <Row>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
+                                <ProductCardComponent title="Body Armour" description="Non-Penetrative Piercing Protective Body Armour." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                            </Col>
+                            <Col md={6} lg={3} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
+                                <ProductCardComponent title="Industrial Chemicals" description="Industrial Chemicals." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                         </Row>
                     </div>
