@@ -77,9 +77,9 @@ export default class Contact extends React.Component {
                             <div>
                                 <p style={{fontSize: 25, marginBottom: 0, fontWeight: 600}}>Jackie Phiri, <span style={{fontSize: 10}}>MBA, MPH, DEH</span></p>
                                 <p style={{fontSize: 20, fontWeight: 600}}>Chief Executive</p>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
+                                {/* <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 210 277 8580</p>
-                                <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p>
+                                <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p> */}
                             </div>
                         </Col>
 
