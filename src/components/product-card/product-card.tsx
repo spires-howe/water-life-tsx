@@ -49,7 +49,7 @@ export default class ProductCardComponent extends React.Component<Props, State> 
         let images = this.props.productImages;
         return (
             <div>
-                <Card className="card" onClick={this.handleClickOpen}>
+                {/* <Card className="card" onClick={this.handleClickOpen}>
                     <CardActionArea>
                         <CardMedia
                         className="media"
@@ -60,9 +60,9 @@ export default class ProductCardComponent extends React.Component<Props, State> 
                         <Typography gutterBottom variant="h5" component="h2">
                             {this.props.title}
                         </Typography>
-                        <Typography component="p">
+                        <p style={{fontSize:15}}>
                             {this.props.description}
-                        </Typography>
+                        </p>
                         </CardContent>
                     </CardActionArea>
                         
@@ -71,7 +71,27 @@ export default class ProductCardComponent extends React.Component<Props, State> 
                                 <Button variant="outline-primary" size='sm'>View More</Button>
                             </ButtonToolbar>
                     </CardActions>
-                </Card>
+                </Card> */}
+                <div>
+                    <div>
+                        <img src={require('../../assets/images/wq-3.jpg')} className="media"/>
+                    </div>
+                    <div style={{marginTop: 10}}>
+                        <p style={{fontSize: 20, fontWeight: 600, letterSpacing: 1, marginBottom: 0}}>
+                            {this.props.title}
+                        </p>
+                    </div>
+                    <div>
+                        <p style={{color: '#666666'}}>
+                        {this.props.description}
+                        </p>
+                    </div>
+                    <div>
+                        <ButtonToolbar>
+                            <Button variant="outline-primary" size='sm' onClick={this.handleClickOpen}>View More</Button>
+                        </ButtonToolbar>
+                    </div>
+                </div>
                 <Dialog
                 onClose={this.handleClose}
                 aria-labelledby="customized-dialog-title"

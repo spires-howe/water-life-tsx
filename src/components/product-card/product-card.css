@@ -1,9 +1,9 @@
 .card {
-    max-width: 345px;
+    width: 300px;
 }
 
 .media {
-    height: 140px;
+    height:200px;
 }
 
 .MuiDialog-paperWidthSm-76 {
