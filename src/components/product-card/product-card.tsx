@@ -82,7 +82,7 @@ export default class ProductCardComponent extends React.Component<Props, State> 
                         <p style={{fontSize: 30, fontWeight: 600, textAlign: 'center', marginTop: 20}}>
                             {this.props.title}
                         </p>
-                        <hr style={{backgroundColor: "#38C0E9"}}/>
+                        <hr style={{backgroundColor: "black"}}/>
                     </div>
                     <Container fluid={true}>
                         <Row className="productContainer">
