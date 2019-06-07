@@ -23,13 +23,13 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 2}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                    <ProductCardComponent title="Water Equipment" description="Water Quality Monitoring and Testing Equipment." productImages={['wq-3', 'wq-2', 'wq-5', 'wq-7', 'wq-4', 'wq-6', 'wq-1',]}/>
+                                    <ProductCardComponent thumbnail="wq-3" title="Water Equipment" description="Water Quality Monitoring and Testing Equipment." productImages={['wq-3', 'wq-2', 'wq-5', 'wq-7', 'wq-4', 'wq-6', 'wq-1',]}/>
                                 </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 2}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Monitoring Equipment" description="Specialised Real-Time Environmental and Water Quality Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="cm-4" title="Monitoring Equipment" description="Specialised Real-Time Environmental and Water Quality Monitoring Equipment." productImages={['cm-1', 'cm-2', 'cm-3', 'cm-4']}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                        <ProductCardComponent title="Water Treatment" description="Commercial and Domestic Water Treatment Chemicals/Reagents/Consumables." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                        <ProductCardComponent thumbnail="cc-1" title="Water Treatment" description="Commercial and Domestic Water Treatment Chemicals/Reagents/Consumables." productImages={['cc-1', 'cc-2', 'cc-3', 'cc-4']}/>
                                     </Col>
                             
                         </Row>
@@ -37,13 +37,13 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 2}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Bulk Water Meters" description="Pre-paid Domestic and Industrial Bulk Water Meters." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="bw-4" title="Bulk Water Meters" description="Pre-paid Domestic and Industrial Bulk Water Meters." productImages={['bw-1', 'bw-2', 'bw-3', 'bw-4', 'bw-5', 'bw-6']}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 2}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                    <ProductCardComponent title="Air Quality" description="Air Quality Particulate Monitoring and Measurement Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                    <ProductCardComponent thumbnail="aq-3" title="Air Quality" description="Air Quality Particulate Monitoring and Measurement Equipment." productImages={['aq-1', 'aq-2', 'aq-3', 'aq-4']}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Radiation Health" description="Radiation Health Detection and Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Radiation Health" description="Radiation Health Detection and Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                            
                         </Row>
@@ -51,13 +51,13 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 2}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Laboratory" description="Scientific and Industrial Laboratory Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Laboratory" description="Scientific and Industrial Laboratory Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 2}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Processing" description="Industrial Manufacturing and Processing Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Processing" description="Industrial Manufacturing and Processing Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Protection and Monitoring" description="Environmental Protection Shielding and Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             
                         </Row>
@@ -65,14 +65,14 @@ export default class Products extends React.Component {
                     <div>
                         <Row>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 2}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Body Armour" description="Non-Penetrative Piercing Protective Body Armour." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Body Armour" description="Non-Penetrative Piercing Protective Body Armour." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 2}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Health and Safety" description="Occupational Health and Safety Body Protection Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Food Safety" description="Food Safety Detection and Control Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Food Safety" description="Food Safety Detection and Control Monitoring Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                         </Row>
                     </div>
@@ -80,10 +80,10 @@ export default class Products extends React.Component {
                         <Row>
                             
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 1}} md={4} lg={{span: 2, offset: 2}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Civil Engineering" description="Building/Civil Engineering/Survey Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Civil Engineering" description="Building/Civil Engineering/Survey Equipment." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                             <Col xs={{offset: 1,span: 11}} sm={{span: 4, offset: 2}} md={4} lg={{span: 2, offset: 1}} className="cardContainer" style={{marginTop: 30, height: '100%'}}>
-                                <ProductCardComponent title="Industrial Chemicals" description="Industrial Chemicals." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
+                                <ProductCardComponent thumbnail="wq-3" title="Industrial Chemicals" description="Industrial Chemicals." productImages={['wq-1', 'wq-2', 'wq-3', 'wq-4', 'wq-5', 'wq-6', 'wq-7',]}/>
                             </Col>
                         </Row>
                     </div>

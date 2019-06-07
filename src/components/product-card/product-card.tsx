@@ -22,6 +22,7 @@ interface Props {
     title: string;
     description: string;
     productImages: string[];
+    thumbnail: string;
 }
 
 interface State {
@@ -74,7 +75,7 @@ export default class ProductCardComponent extends React.Component<Props, State> 
                 </Card> */}
                 <div>
                     <div>
-                        <img src={require('../../assets/images/wq-3.jpg')} className="media"/>
+                        <img src={require('../../assets/images/'+ this.props.thumbnail  + '.jpg')} className="media" height="500px"/>
                     </div>
                     <div style={{marginTop: 10}}>
                         <p style={{fontSize: 20, fontWeight: 600, letterSpacing: 1, marginBottom: 0}}>
