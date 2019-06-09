@@ -88,7 +88,7 @@ export default class About extends React.Component {
                                     </p>
                                 </div>
                                 <ButtonToolbar style={{marginBottom: 20}}>
-                                    <NavLink to="/contact"> 
+                                    <NavLink to="/products"> 
                                         <Button variant="outline-dark">View More ➥</Button>
                                     </NavLink>
                                 </ButtonToolbar>
