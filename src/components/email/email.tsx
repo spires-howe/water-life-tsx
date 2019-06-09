@@ -31,28 +31,26 @@ export default class EmailComponent extends React.Component<Props, State> {
     }
 
     componentDidMount() {
-        emailjs.init("user_rWooA09BmjbRua0EsUcL6");
+        emailjs.init("user_HBCyhbZa6VofOxKQFfcUX");
     }
 
     private handleSubmit(e: any) {
-        // e.preventDefault();
-        // let template_params = {
-        //     "name": this.state.name,
-        //     "designation": this.state.designation,
-        //     "company": this.state.company,
-        //     "address": this.state.address,
-        //     "phoneNumber": this.state.phoneNumber,
-        //     "email": this.state.email,
-        //     "message": this.state.message,
-        //  }
+        e.preventDefault();
+        let template_params = {
+            "name": this.state.name,
+            "address": this.state.address,
+            "phoneNumber": this.state.phoneNumber,
+            "email": this.state.email,
+            "message": this.state.message,
+         }
          
-        //  let service_id = "123";
-        //  let template_id = "bus_email";
-        //  emailjs.send(service_id, template_id, template_params).then(res => {
-        //      alert('Email Successfully Sent!');
-        //      console.log('Email Succesfully Sent!');
-        //  })
-        //  .catch(err => console.log("Error has occured", err));
+         let service_id = "waterlife";
+         let template_id = "waterlife";
+         emailjs.send(service_id, template_id, template_params).then(res => {
+             alert('Email Successfully Sent!');
+             console.log('Email Succesfully Sent!');
+         })
+         .catch(err => console.log("Error has occured", err));
     }
 
     render() {
