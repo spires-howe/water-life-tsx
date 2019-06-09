@@ -104,7 +104,7 @@ export default class Products extends React.Component {
                                 <div style={{fontSize: 20}}>
                                     <p>
                                     <img src={require('../../assets/images/water-life-text.png')} height="35px"/> Limited’s direct access to manufacturers of the best, latest and
-                                        most technologically-advanced products that they deal iis translated to clients
+                                        most technologically-advanced products that they deal in, is translated to clients
                                         getting the most competitive prices. 
                                     </p>
                                     <p>
