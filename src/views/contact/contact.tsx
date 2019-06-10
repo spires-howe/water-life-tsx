@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
                         </Col>
                         <Col lg={{offset: 1, span: 5}}>
                             <div>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 214 3657</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 214 3657</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 21 235 3483</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> accounts@waterlife.co.nz</p>
                                 <p className="contactText"><img src={require('../../assets/icons/mailbox.png')} style={{marginBottom: 5}}/> P.O. Box 230165</p>
@@ -63,7 +63,7 @@ export default class Contact extends React.Component {
                                 </div>
                                 <p style={{fontSize: 25, marginBottom: 0, fontWeight: 600}}>Jackie Phiri, <span style={{fontSize: 10}}>MBA, MPH, DEH</span></p>
                                 <p style={{fontSize: 20, fontWeight: 600}}>Chief Executive</p>
-                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 250 1037</p>
+                                <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +64 9 214 3657</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Mobile:</span> +64 210 277 8580</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> jackiephiri@waterlife.co.nz</p>
                                 <p className="contactText"><img src={require('../../assets/icons/mailbox.png')} style={{marginBottom: 5}}/> P.O. Box 230165</p>
@@ -76,14 +76,14 @@ export default class Contact extends React.Component {
                                 <hr />
                             </div>
                             <div>
-                                {/* <img src={require('../../assets/images/maogisi.jpg')} height="250px"/> */}
+                                <img src={require('../../assets/images/maogisi.jpg')} height="250px"/>
                                 <p style={{fontSize: 25, marginBottom: 0, fontWeight: 600, marginTop: 20}}>Moagisi Kingsley Ramadi, <span style={{fontSize: 10}}>BBA</span></p>
                                 <p style={{fontSize: 20, fontWeight: 600}}>Country Manager</p>
                                 <p className="contactText"><img src={require('../../assets/icons/phone-call.png')}/> <span style={{fontWeight: 600}}>Tel:</span> +267 73904151</p>
                                 <p className="contactText"><img src={require('../../assets/icons/envelope.png')}/> <span style={{fontWeight: 600}}>Email:</span> kingsleyramadi@gmail.com</p>
                                 <p className="contactText"><img src={require('../../assets/icons/mailbox.png')} style={{marginBottom: 5}}/> P.O. Box 4552</p>
                                 <p className="contactText"><img src={require('../../assets/icons/planet-earth.png')} style={{marginBottom: 5}}/> Gaborone, Botswana</p>
-                                <img src={require('../../assets/images/maogisi.jpg')} height="250px"/>
+                                
                                 
                             </div>
                         </Col>
