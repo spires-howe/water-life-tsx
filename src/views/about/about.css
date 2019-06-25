@@ -65,7 +65,7 @@ li::before {
 }
 
 .aboutBannerContainerSecondary {
-    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.85)),
+    background: linear-gradient(rgba(23, 40, 20, 0.62), rgba(3, 5, 3, 0.37)),
     url('../../assets/images/forest-banner.jpg');
     background-size: cover;
     min-height: 350px;
