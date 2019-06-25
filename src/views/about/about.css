@@ -80,6 +80,7 @@ li::before {
     font-size: 45px;
     font-weight: 600;
     letter-spacing: 2px;
+    text-shadow: 2px 1px 1px #000000;
 }
 
 .aboutBannerDescContainer {
@@ -88,6 +89,13 @@ li::before {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.aboutBannerDescText {
+    text-shadow: 1px 1px 1px #000000;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .priceBannerContainer {

@@ -285,7 +285,7 @@ export default class About extends React.Component {
                                     </div>
                                     <hr style={{backgroundColor: 'white'}}/>
                                     <div className="aboutBannerDescContainer">
-                                        <p style={{marginBottom: 0, fontWeight: 400, fontSize: 22}}>
+                                        <p style={{}} className="aboutBannerDescText">
                                         In recognising the need to promote environmental protection, 
                                         <img src={require('../../assets/images/water-life-text.png')} className="waterLifeText"/>
                                         Limited, materially supports community-initiated and community-driven 

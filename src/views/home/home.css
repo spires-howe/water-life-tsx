@@ -4,7 +4,7 @@
 
 .homebg {
     background: linear-gradient(rgba(200, 200, 200, 0.5), rgba(10, 10, 10, 0.5)),
-    url('../../assets/images/homebg.jpg');
+    url('../../assets/images/landing-bg-3.jpg');
     background-size: cover;
     height: calc(100vh - 70px);
 
